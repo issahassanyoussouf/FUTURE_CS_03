@@ -152,12 +152,14 @@ Upload:
 ```bash
 curl -X POST -H "X-Auth-Token: your_token" -F "file=@myfile.txt" http://localhost:8080/upload
 ```
+<img width="1366" height="727" alt="Capture d’écran (2868)" src="https://github.com/user-attachments/assets/1ac684fa-ac3b-4c1a-8d0d-629d6d19eefb" />
 
 Download:
 
 ```bash
 curl -H "X-Auth-Token: your_token" http://localhost:8080/download/myfile.txt.enc -o decrypted.txt
 ```
+<img width="1366" height="727" alt="Capture d’écran (2873)" src="https://github.com/user-attachments/assets/8bbd44c4-0616-425e-82de-8e9e7d653598" />
 
 ---
 
